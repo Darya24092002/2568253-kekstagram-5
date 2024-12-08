@@ -1,9 +1,3 @@
-import { getPhotos } from './data.js';
-import { renderThumbnails } from './render-thumbnails.js';
-
-const photos = getPhotos();
-renderThumbnails(photos);
-
 const uploadFileInput = document.querySelector('#upload-file');
 const uploadOverlay = document.querySelector('.img-upload__overlay');
 const uploadCancel = document.querySelector('#upload-cancel');
@@ -82,3 +76,4 @@ effectRadios.forEach((radio) => {
     }
   });
 });
+
